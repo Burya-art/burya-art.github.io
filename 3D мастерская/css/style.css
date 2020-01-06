@@ -1,0 +1,154 @@
+body {
+    min-width: 320px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.menu a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 70px;
+    color:#8A8C91;
+}
+
+header .navbar-light{
+    background-color: white;
+}
+header .navbar-brand {
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ADAE82 !important; 
+} 
+
+
+header .nav-item {
+    margin-left: 12px;
+}
+
+header .navbar-brand-1 {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+
+position: absolute;
+left: 0px;
+top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    header .navbar-brand-1 {
+        width: 0px;
+        height: 0px;
+    }
+    }
+
+header .navbar-brand-2 {
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+@media only screen and (max-width: 768px) {
+    header .navbar-brand-2 {
+        width: 0px;
+        height: 0px;
+    }
+    }
+
+header .navbar-brand-3 {
+    width: 55px;
+    height: 55px;
+    margin-left: 70px;
+}
+@media only screen and (max-width: 768px) {
+    header .navbar-brand-3 {
+        width: 0px;
+        height: 0px;
+    }
+    }
+
+header .navbar-brand-4 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    color: black !important;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Extra Small */
+@media only screen  and (max-width : 480px) {
+    /* стили */
+    }
+    
+    /* Smartphones  ----------- */
+@media only screen and (max-width: 767px) {
+    /* стили */
+    }
+    
+    /* Smartphones  ----------- */
+@media only screen and (max-width: 768px) {
+    /* стили */
+    }
+
+    /* Настольные компьютеры и ноутбуки ----------- */
+    @media only screen  and (max-width: 991px) {
+        /* стили */
+    }
+
+    /* Настольные компьютеры и ноутбуки ----------- */
+    @media only screen  and (max-width: 992px) {
+        /* стили */
+    }
+    /* Настольные компьютеры и ноутбуки ----------- */
+@media only screen  and (max-width: 1199px) {
+    /* стили */
+}
+    
+    /* Большие экраны ----------- */
+@media only screen  and (max-width: 1200px) {
+    /* стили */
+    }

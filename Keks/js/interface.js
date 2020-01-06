@@ -57,7 +57,7 @@
 	   loading:true,
 	   loadingParentElement: 'body', //animsition wrapper element
 	   loadingClass: 'spinner',
-	   loadingInner: '<div class="double-bounce1"></div><div class="double-bounce2"></div>', // e.g '<img src="loading.svg" />'
+	   loadingInner: '<div class="double-bounce1"></div><div class="double-bounce2"></div><br /><div class="burya">LOADING</div>', // e.g '<img src="loading.svg" />'
 	   timeout: false,
 	   timeoutCountdown:5000,
 	   onLoadEvent: true,

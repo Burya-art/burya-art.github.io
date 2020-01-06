@@ -1245,7 +1245,7 @@ main h1{
 }
 
 .main-bg{
-  background:url(file:///Users/igorburchik/Desktop/Apple/Keks%20site%20new%20/Selena/html/img/bg/bg-freelance.mp4) 50% 0 no-repeat;
+  background:url(bg/bg-freelance.mp4) 50% 0 no-repeat;
   background-size:cover;
 }
 
@@ -2209,3 +2209,8 @@ main h1{
 
 
 
+
+.spinner .burya {
+  font-size: 11px;
+  margin-top: 25px;
+}

@@ -34,6 +34,7 @@ header .navbar-light{
     background-color: white;
 }
 header .navbar-brand {
+    margin-top: 15px;
     margin-left: 15px;
     font-weight: bold;
     font-size: 25px;

@@ -297,53 +297,12 @@ a.button28 {
 }
 
 
-/* @media screen and (min-width: 300px) and (max-width: 768px){
+@media screen and (min-width: 300px) and (max-width: 768px){
 
-    #p1 {
-        margin-left: 150px;
-        margin-top: 250px;
-        font-size: 16px;
-    }
-    
-    #p2 {
-        margin-left: 380px;
-        margin-top: -130px;
-        font-size: 16px;
-    }
-    
-    #p3 {
-        margin-left: 995px;
-        margin-top: -110px;
-        font-size: 16px;
-    }
-
-    #circle0 {
-        border-radius: 100%;
-        margin-top: 50px;
-        margin-left: 20px;
-        height: 280px;
-        width: 280px;
-    }
-    
-    #circle1 {
-        border-radius: 100%;
-        margin-top: 50px;
-        margin-left: 100px;
-        height: 290px;
-        width: 290px;
-    } 
-    
-    .circle2 {
-        border-radius: 100%;
-        margin-top: 42px;
-        margin-left: 100px;
-        height: 290px;
-        width: 290px;
-    } 
     .container h2 {
         margin-left: 550px;
     }
-} */
+}
 
 @media only screen and (min-width: 767px) {
     .container {

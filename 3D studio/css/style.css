@@ -7,7 +7,7 @@ body {
 /* Первый блок */
 
 .container {
-    min-width: 1070px;
+    min-width: 1170px;
     margin: 0px auto;
 }
 
@@ -164,9 +164,9 @@ a.button28 {
     background-color: white;
 }
 
-.section .container img {
+#circle0 {
     border-radius: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: -35px;
     height: 280px;
     width: 280px;
@@ -174,15 +174,15 @@ a.button28 {
 
 #circle1 {
     border-radius: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 140px;
     height: 290px;
     width: 290px;
 } 
 
-#circle2 {
+.circle2 {
     border-radius: 100%;
-    margin-top: 50px;
+    margin-top: 42px;
     margin-left: 140px;
     height: 280px;
     width: 280px;
@@ -276,25 +276,32 @@ a.button28 {
 
 #p1 {
     margin-left: 150px;
-    margin-top: 200px;
+    margin-top: 250px;
     font-size: 16px;
 }
 
 #p2 {
     margin-left: 580px;
-    margin-top: -70px;
+    margin-top: -130px;
     font-size: 16px;
 }
 
 #p3 {
-    margin-left: 1150px;
-    margin-top: 0px;
+    margin-left: 995px;
+    margin-top: -110px;
     font-size: 16px;
 }
 
-
-
-
+@media only screen and (min-width: 767px) {
+    .container {
+    min-width: 1070px;
+    margin: 0px auto;
+    }
+    .cont2 {
+        min-width: 1170px;
+        margin: 0px auto;
+        }
+}
 
 
 

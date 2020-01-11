@@ -184,8 +184,8 @@ a.button28 {
     border-radius: 100%;
     margin-top: 42px;
     margin-left: 140px;
-    height: 280px;
-    width: 280px;
+    height: 290px;
+    width: 290px;
 } 
 
 
@@ -292,6 +292,59 @@ a.button28 {
     font-size: 16px;
 }
 
+.cont2 {
+    padding-left: 25px;
+}
+
+
+/* @media screen and (min-width: 300px) and (max-width: 768px){
+
+    #p1 {
+        margin-left: 150px;
+        margin-top: 250px;
+        font-size: 16px;
+    }
+    
+    #p2 {
+        margin-left: 380px;
+        margin-top: -130px;
+        font-size: 16px;
+    }
+    
+    #p3 {
+        margin-left: 995px;
+        margin-top: -110px;
+        font-size: 16px;
+    }
+
+    #circle0 {
+        border-radius: 100%;
+        margin-top: 50px;
+        margin-left: 20px;
+        height: 280px;
+        width: 280px;
+    }
+    
+    #circle1 {
+        border-radius: 100%;
+        margin-top: 50px;
+        margin-left: 100px;
+        height: 290px;
+        width: 290px;
+    } 
+    
+    .circle2 {
+        border-radius: 100%;
+        margin-top: 42px;
+        margin-left: 100px;
+        height: 290px;
+        width: 290px;
+    } 
+    .container h2 {
+        margin-left: 550px;
+    }
+} */
+
 @media only screen and (min-width: 767px) {
     .container {
     min-width: 1070px;
@@ -313,45 +366,3 @@ a.button28 {
 
 
 
-
-
-
-
-
-
-
-
-
-    /* Extra Small */
-@media only screen  and (max-width : 480px) {
-    /* стили */
-    }
-    
-    /* Smartphones  ----------- */
-@media only screen and (max-width: 767px) {
-    /* стили */
-    }
-    
-    /* Smartphones  ----------- */
-@media only screen and (max-width: 768px) {
-    /* стили */
-    }
-
-    /* Настольные компьютеры и ноутбуки ----------- */
-    @media only screen  and (max-width: 991px) {
-        /* стили */
-    }
-
-    /* Настольные компьютеры и ноутбуки ----------- */
-    @media only screen  and (max-width: 992px) {
-        /* стили */
-    }
-    /* Настольные компьютеры и ноутбуки ----------- */
-@media only screen  and (max-width: 1199px) {
-    /* стили */
-}
-    
-    /* Большие экраны ----------- */
-@media only screen  and (max-width: 1200px) {
-    /* стили */
-    }

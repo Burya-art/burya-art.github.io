@@ -454,6 +454,62 @@ label, a{ /*при наведении на стрелки или переклю�
     background:url(../img/spaceback.jpg) 100% no-repeat;
 }
 
+/* .section2 {
+    width: 100%;
+    height: 850px;
+    background:url(../img/photo500.jpg) 100% no-repeat;
+    background-position: center;
+}  */
+
+.section2 {
+    width: 100%;
+    height: 700px;
+    background:url(../img/background2.png) ;
+}
+
+.section3 {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+#hr1 {
+    border: 2px solid black;
+}
+#hr2 {
+    border-top: 0.7px solid black;
+}
+
+#pond {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+/* #pond1 {
+    padding-left: 2%;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 45px;
+
+    letter-spacing: 0.15em;
+
+    color: rgb(19, 18, 18);
+  }  */
+  
+#pond1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 37px;
+  } 
+
 
 
 

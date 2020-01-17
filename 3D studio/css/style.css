@@ -322,6 +322,7 @@ a.button28 {
 	width: 20%;
     float: left;
     overflow: hidden;
+    height: 600px;
 }
 
 #slides .image{ /*устанавливает общий размер блока с изображениями*/
@@ -336,7 +337,7 @@ a.button28 {
 
 article img{ /*размер изображений слайдера*/
     width: 100%;
-    padding-top: 12%;
+    padding-top: 7%;
 }
 
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
@@ -352,10 +353,10 @@ article img{ /*размер изображений слайдера*/
 #switch5:checked ~ #controls label:nth-child(4){
 	background:url(../img/prev.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: left;
-	margin: 0 0 0 10px; /*сдвиг влево*/
+	margin: 0 0 0 0px; /*сдвиг влево*/
 	display: block;
-	height: 68px;
-	width: 68px;
+	height: 90px;
+	width: 75px;
 }
 
 /*настройка переключения и положения для правой стрелки*/
@@ -366,10 +367,10 @@ article img{ /*размер изображений слайдера*/
 #switch5:checked ~ #controls label:nth-child(1){
 	background:url(../img/next.png) no-repeat; /*заливка фона картинкой без повторений*/
 	float: right;
-	margin: 0 10px 0 0; /*сдвиг вправо*/
+	margin: 0 24px 0 0; /*сдвиг вправо*/
 	display: block;
-	height: 68px;
-	width: 68px;
+	height: 90px;
+	width: 75px;
 }
 
 
@@ -453,13 +454,14 @@ label, a{ /*при наведении на стрелки или переклю�
     height: 850px;
     background:url(../img/spaceback.jpg) 100% no-repeat;
 }
+#uswork {
+    padding-left: 43.5%;
+    padding-top: 5%;
+    font-size: 28px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
-/* .section2 {
-    width: 100%;
-    height: 850px;
-    background:url(../img/photo500.jpg) 100% no-repeat;
-    background-position: center;
-}  */
 
 .section2 {
     width: 100%;
@@ -486,18 +488,6 @@ label, a{ /*при наведении на стрелки или переклю�
     justify-content: center;
   }
 
-/* #pond1 {
-    padding-left: 2%;
-    text-align: center;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 45px;
-
-    letter-spacing: 0.15em;
-
-    color: rgb(19, 18, 18);
-  }  */
   
 #pond1 {
     display: flex;
@@ -508,6 +498,7 @@ label, a{ /*при наведении на стрелки или переклю�
     font-weight: normal;
     font-size: 24px;
     line-height: 37px;
+    letter-spacing: 0.15em;
   } 
 
 

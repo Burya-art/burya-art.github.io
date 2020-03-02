@@ -225,6 +225,9 @@ color: #000000;
     .line {
         display: none;
     }
+    .text {
+        display: none;
+    }
   }
 
 

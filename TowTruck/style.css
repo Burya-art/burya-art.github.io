@@ -196,11 +196,11 @@ color: #000000;
   }
 
 #call {
-
+    
     transform: translate(100px, 100px);
 }
 
-@media screen and (max-width: 500px) /* Mobile */ {
+@media only screen and (max-width: 500px) /* Mobile */ {
     
   }
 
